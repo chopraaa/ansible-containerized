@@ -1,4 +1,4 @@
-# ansible-dockerfile [![](https://images.microbadger.com/badges/image/varunchopra/ansible.svg)](https://microbadger.com/images/varunchopra/ansible "Get your own image badge on microbadger.com")
+# ansible-containerized [![](https://images.microbadger.com/badges/image/varunchopra/ansible.svg)](https://microbadger.com/images/varunchopra/ansible "Get your own image badge on microbadger.com")
 
 ## Usage
 
