@@ -5,6 +5,7 @@ RUN set -ex; \
         apk add --update --no-cache \
             git \
             python \
+            sshpass \
         ; \
         apk add --no-cache --virtual .build-deps \
             libffi-dev \
@@ -16,7 +17,11 @@ RUN set -ex; \
         pip install --upgrade pip; \
         pip install \
             git+https://github.com/ansible/ansible.git@devel \
-            pywinrm pyvmomi boto boto3 pycrypto \
+            pywinrm \
+            pyvmomi \
+            boto \
+            boto3 \
+            pycrypto \
         ; \
         apk del .build-deps; \
         rm -rf \
